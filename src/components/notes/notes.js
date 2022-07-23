@@ -59,32 +59,11 @@ export default function NotesComponent() {
         setState({
             ...state,
             notes: [...state.notes
-                .map(note => note.id === id ? r.data : note
-                   
-                 
-                   
-                   
-                   
-               
+                .map(note => note.id === id ? r.data : note                
             )
-        ]})         
-        
-             
+        ]})  
     )
-      
-                
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    }  
-      
+}    
     return (
         <div className="notes_container">
             <CreateForm 
